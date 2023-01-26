@@ -78,16 +78,21 @@
       <br>
       <!-- input de tipo checkbox -->
       <!-- TIP encerrar en un label los checkbox -->
-      <label for="uno"><input type="checkbox" id="uno" name="opciones">Uno</label>
-      <label for="dos"><input type="checkbox" id="dos" name="opciones">Dos</label>
-      <label for="tres"><input type="checkbox" id="tres" name="opciones">Tres</label>
+      <label for="uno"><input type="checkbox" value="uno" id="uno" name="opciones">Uno</label>
+      <!-- atributo checked es para marcar un elemento por defecto -->
+      <label for="dos"><input type="checkbox" value="dos" id="dos" name="opciones" checked>Dos</label>
+      <label for="tres"><input type="checkbox" value="tres" id="tres" name="opciones">Tres</label>
       <br>
       <input type="radio">Marcar
       <hr>
-      <label for=""><input type="radio" name="interior-exterior" id="interior">interior</label>
-      <label for=""><input type="radio" name="interior-exterior" id="exterior">exterior</label>
+      <label for=""><input type="radio" value="interior" name="interior-exterior" id="interior">interior</label>
+      <label for=""><input type="radio" value="exterior" name="interior-exterior" id="exterior">exterior</label>
     </form>
   </main>
+  <!-- etique footer sirve para ubicar el contenido final de la pagina -->
+  <footer>
+    <p> footer espacio para el contenido final de la pagina </p>
+  </footer>
 
 
 </body>
