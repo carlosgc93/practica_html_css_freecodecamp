@@ -17,3 +17,10 @@ ol {
     font-family: 'Pacifico', cursive;
 }
 
+.programacion { 
+    width: 500px;
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid;
+
+}
