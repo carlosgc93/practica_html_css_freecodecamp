@@ -1,11 +1,19 @@
+/* selector de tipo ejemplo a los tipos de H2 */
 h2 {
     color: chartreuse;
+    font-size: 50px;
 }
 
-p { 
-    color: green;
+/* selector de clase  */
+.texto-importante {
+    color: rgb(0, 9, 128);
 }
 
-div {   
-    color: aqua;
+/* agregar estilo a varios elementos */
+ul,
+ol {
+    color: rgb(255, 0, 21);
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
 }
+
