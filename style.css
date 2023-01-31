@@ -1,4 +1,8 @@
 /* selector de tipo ejemplo a los tipos de H2 */
+body {
+    background-color: rgb(162, 120, 106);
+}
+
 h2 {
     color: chartreuse;
     font-size: 50px;
@@ -17,10 +21,38 @@ ol {
     font-family: 'Pacifico', cursive;
 }
 
-.programacion { 
+.programacion {
     width: 500px;
     border-width: 10px;
     border-color: blue;
-    border-style: solid;
+    /* bordes primer valor arriba, segundo valor izquierda, tercer valor derecha, cuarto valor abajo */
+    border-style: solid dashed dotted double;
+    padding: 30px 15px 10px 5px;
+}
 
+/* bordes redondedados de imagenes */
+/* para logar un circulo es la medida de 150px o 50% */
+.gatito {
+    border-radius: 50px;
+    border-color: black;
+    border-width: 10px;
+    border-style: inset;
+}
+
+div {
+    background-color: aqua;
+    margin: 50px 50px;
+}
+
+#primer-parrafo {
+    background-color: darkorange;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Selector con atributo  */
+a[href="https://www.youtube.com/"]{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
 }
